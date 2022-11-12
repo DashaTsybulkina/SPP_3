@@ -62,12 +62,8 @@
                   Background="Transparent" BorderThickness="0">
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate ItemsSource="{Binding ChildNodes}">
-                    <Border CornerRadius="12" Padding="10 5" Margin="0 2" BorderThickness="1"
-                            BorderBrush="{DynamicResource TextColorBrush}"
-                            Background="{DynamicResource Color2Brush}">
-                        <TextBlock Foreground="{DynamicResource TextColorBrush}" FontSize="16" 
+                    <TextBlock Foreground="{DynamicResource TextColorBrush}" FontSize="16" 
                                    Text="{Binding Title}"/>
-                    </Border>
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
         </TreeView>

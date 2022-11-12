@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyBrowser", "AssemblyBrowser\AssemblyBrowser.csproj", "{A8613507-FB9C-46E1-9DD1-70D1A5834A5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssenblyBrowserLib", "AssenblyBrowserLib\AssenblyBrowserLib.csproj", "{778FCC59-B734-459E-9428-B1912D7C5DBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A8613507-FB9C-46E1-9DD1-70D1A5834A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8613507-FB9C-46E1-9DD1-70D1A5834A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8613507-FB9C-46E1-9DD1-70D1A5834A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778FCC59-B734-459E-9428-B1912D7C5DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778FCC59-B734-459E-9428-B1912D7C5DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778FCC59-B734-459E-9428-B1912D7C5DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778FCC59-B734-459E-9428-B1912D7C5DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
