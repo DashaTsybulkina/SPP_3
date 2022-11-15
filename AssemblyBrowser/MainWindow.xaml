@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <SolidColorBrush x:Key="Color1Brush" Color="#110B26"/>
-        <SolidColorBrush x:Key="Color2Brush" Color="#2F3040"/>
-        <SolidColorBrush x:Key="TextColorBrush" Color="#D8F2F0"/>
-        <Color x:Key="Color1">#2F3040</Color>
-        <Color x:Key="Color2">#414153</Color>
+        <SolidColorBrush x:Key="Color1Brush" Color="#d6b8d3"/>
+        <SolidColorBrush x:Key="Color2Brush" Color="#b36fab"/>
+        <SolidColorBrush x:Key="TextColorBrush" Color="black"/>
+        <Color x:Key="Color1">#9c8499</Color>
+        <Color x:Key="Color2">#b36fab</Color>
     </Window.Resources>
     <Grid Background="{DynamicResource Color1Brush}" HorizontalAlignment="Stretch"
           VerticalAlignment="Stretch">
